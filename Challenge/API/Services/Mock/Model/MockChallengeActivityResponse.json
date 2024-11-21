@@ -1,0 +1,181 @@
+{
+  "id": "76O5QM3zhF4jfJFMkM7zlU1ysadasfsdgaEG2",
+  "state": "REVIEWED",
+  "stateChangedAt": null,
+  "title": "Retake control of your mind",
+  "description": "When anger takes over, we often do things we later regret, like yelling or grumpily ruminating. Letâ€™s learn to retake control of our minds - with science-proven techniques!",
+  "duration": "3 min",
+  "activity": {
+    "screens": [
+      {
+        "id": "3wAyd4fwsS8L2BqIHeBrxe",
+        "type": "multipleChoiceModuleScreen",
+        "question": "So, what regrettable things have you done in anger? (Donâ€™t worry, we wonâ€™t tell.)",
+        "multipleChoicesAllowed": true,
+        "choices": [
+          {
+            "id": "2JT0IQXgUnixdNj9NeUV4l",
+            "text": "Yelling",
+            "emoji": "ðŸ¤¬"
+          },
+          {
+            "id": "64ek3cOv9ISLNpjommiIna",
+            "text": "Angrily ruminating/plotting revenge",
+            "emoji": "ðŸ˜ "
+          },
+          {
+            "id": "6Yz4DwJtvkLiOFA9zw8Cqf",
+            "text": "Giving people the cold shoulder",
+            "emoji": "ðŸ˜’"
+          },
+          {
+            "id": "fuwVu4UESHnMRryJFA7Bq",
+            "text": "Mocking/insulting someone",
+            "emoji": "ðŸ˜ˆ"
+          },
+          {
+            "id": "1u0qT3sPS2WYirdTgwP7TF",
+            "text": "Emitting steam from your ears (handy on cold days!)",
+            "emoji": "ðŸ˜¤"
+          },
+          {
+            "id": "5UlTno3DGrs2k5PCLIJeoW",
+            "text": "None of the above, Iâ€™m zen",
+            "emoji": "âŒ"
+          }
+        ]
+      },
+      {
+        "id": "3wAyd4fwsS8L2BqIHeBxxe",
+        "type": "multipleChoiceModuleScreen",
+        "question": "So, which one thing you do most in anger? (Donâ€™t worry, we wonâ€™t tell.)",
+        "multipleChoicesAllowed": false,
+        "choices": [
+          {
+            "id": "2JT0IQXgUnixdNj9NeUV4l",
+            "text": "Yelling",
+            "emoji": "ðŸ¤¬"
+          },
+          {
+            "id": "64ek3cOv9ISLNpjommiIna",
+            "text": "Angrily ruminating/plotting revenge",
+            "emoji": "ðŸ˜ "
+          },
+          {
+            "id": "6Yz4DwJtvkLiOFA9zw8Cqf",
+            "text": "Giving people the cold shoulder",
+            "emoji": "ðŸ˜’"
+          },
+          {
+            "id": "fuwVu4UESHnMRryJFA7Bq",
+            "text": "Mocking/insulting someone",
+            "emoji": "ðŸ˜ˆ"
+          },
+          {
+            "id": "1u0qT3sPS2WYirdTgwP7TF",
+            "text": "Emitting steam from your ears (handy on cold days!)",
+            "emoji": "ðŸ˜¤"
+          },
+          {
+            "id": "5UlTno3DGrs2k5PCLIJeoW",
+            "text": "None of the above, Iâ€™m zen",
+            "emoji": "âŒ"
+          }
+        ]
+      },
+      {
+        "id": "5K4L0x83Nk5IOIynnuVmkO",
+        "type": "multipleChoiceModuleScreen",
+        "question": "How would you want to deal with an angry lion?",
+        "multipleChoicesAllowed": true,
+        "choices": [
+          {
+            "id": "5IUt6gLrKOdqsfAbrIkMPe",
+            "text": "Taking a moment to ponder my options, hoping the lion respects my time-out",
+            "emoji": "ðŸ›‘"
+          },
+          {
+            "id": "3mCbg3bPBqH6ODLDZs7GxX",
+            "text": "Instinctively start yelling and making myself big",
+            "emoji": "ðŸ’ª"
+          }
+        ]
+      },
+      {
+        "id": "67qeDAR47kWIod0nSIsT6v",
+        "type": "recapModuleScreen",
+        "eyebrow": "RECAP",
+        "body": "Our angry %  RECAP  % fire quickly: â€œAct now, think later. Better safe than sorry.â€ Unfortunately in todayâ€™s world \n(without lions around) that motto often makes us do things we later regret.",
+        "answers": [
+          {
+            "id": "7ddxVru420D4EMowoOmhDc",
+            "text": "brains"
+          },
+          {
+            "id": "52F6vg1UBnlCzh6v8IihrA",
+            "text": "friends"
+          },
+          {
+            "id": "78kGEimAeobOTvth5HUqwR",
+            "text": "bosses"
+          }
+        ],
+        "correctAnswer": "7ddxVru420D4EMowoOmhDc"
+      },
+      {
+        "id": "7liWVvjwswYl14yCZwjg7H",
+        "type": "multipleChoiceModuleScreen",
+        "question": "The secret behind this technique: Weâ€™re bad at multitasking! Want proof? Try these steps and mark each one as you do it:",
+        "multipleChoicesAllowed": true,
+        "choices": [
+          {
+            "id": "3bod6wE5TOOFurNXwaiyp6",
+            "text": "Stretch out both index fingers",
+            "emoji": "ðŸ‘‰"
+          },
+          {
+            "id": "On1GxA20op3xG9z04cX2N",
+            "text": "Make one move in circles",
+            "emoji": "ðŸ”"
+          },
+          {
+            "id": "2xqryruIgatHnjxARiUUag",
+            "text": "Make the other move so that it draws a square in the air",
+            "emoji": "ðŸ”ƒ"
+          },
+          {
+            "id": "3fCPkfB6UOOmNkiYaY4A0j",
+            "text": "Then try both at the same time",
+            "emoji": "2ï¸âƒ£"
+          },
+          {
+            "id": "6YrWJcO8Av6GhHflZ7ZCkD",
+            "text": "See that you canâ€™t focus on two things at once (like raging and breathing)",
+            "emoji": "ðŸ¤¯"
+          }
+        ]
+      },
+      {
+        "id": "1Q92GNwyb1e3sPiqP0Nbla",
+        "type": "recapModuleScreen",
+        "eyebrow": "RECAP",
+        "body": "So you see, clever %  RECAP  % can help us calmly resolve situations in which we previously would have lost it. Letâ€™s learn to use anger to our advantage!",
+        "answers": [
+          {
+            "id": "17IHdxe0eS76rQ1wlNuqAG",
+            "text": "techniques"
+          },
+          {
+            "id": "4cm4jJZ9j3dvB8Rg8f4p3u",
+            "text": "excuses"
+          },
+          {
+            "id": "7CqPg2MjgyjTLpui36m8vV",
+            "text": "patterns"
+          }
+        ],
+        "correctAnswer": "17IHdxe0eS76rQ1wlNuqAG"
+      }
+    ]
+  }
+}

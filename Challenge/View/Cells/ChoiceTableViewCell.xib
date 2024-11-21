@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="EuclidCircularB-Medium.ttf">
+            <string>EuclidCircularB-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChoiceTableViewCell" customModule="Challenge" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChoiceTableViewCell" rowHeight="98" id="RrX-Ho-9y1" customClass="ChoiceTableViewCell" customModule="Challenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RrX-Ho-9y1" id="TIL-qK-wUF" customClass="ChoiceTableViewCell" customModule="Challenge" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sdn-vJ-zX3">
+                        <rect key="frame" x="0.0" y="8" width="414" height="82"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIm-T5-p1C">
+                                <rect key="frame" x="16" y="12" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="HpG-zR-Bsf"/>
+                                    <constraint firstAttribute="width" constant="24" id="hJy-n9-Gmc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="“Maybe she’s right - I should calm down”“Maybe she’s right - I should calm down”" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhF-SG-Cka">
+                                <rect key="frame" x="48" y="8" width="350" height="66"/>
+                                <fontDescription key="fontDescription" name="EuclidCircularB-Medium" family="Euclid Circular B" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zhF-SG-Cka" secondAttribute="trailing" constant="16" id="5zW-IR-ita"/>
+                            <constraint firstItem="fIm-T5-p1C" firstAttribute="top" secondItem="zhF-SG-Cka" secondAttribute="top" constant="4" id="AUu-88-OxA"/>
+                            <constraint firstItem="zhF-SG-Cka" firstAttribute="top" secondItem="sdn-vJ-zX3" secondAttribute="top" constant="8" id="GPP-U8-uVV"/>
+                            <constraint firstItem="zhF-SG-Cka" firstAttribute="centerY" secondItem="sdn-vJ-zX3" secondAttribute="centerY" id="P5O-6o-oK8"/>
+                            <constraint firstAttribute="bottom" secondItem="zhF-SG-Cka" secondAttribute="bottom" constant="8" id="alX-hW-xY2"/>
+                            <constraint firstItem="zhF-SG-Cka" firstAttribute="leading" secondItem="fIm-T5-p1C" secondAttribute="trailing" constant="8" id="cFW-04-CfZ"/>
+                            <constraint firstItem="fIm-T5-p1C" firstAttribute="leading" secondItem="sdn-vJ-zX3" secondAttribute="leading" constant="16" id="vpa-X7-kM3"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="ztS-zL-0Sy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sdn-vJ-zX3" secondAttribute="bottom" constant="8" id="8LW-wq-aXV"/>
+                    <constraint firstAttribute="trailing" secondItem="sdn-vJ-zX3" secondAttribute="trailing" id="Ixl-j5-TJe"/>
+                    <constraint firstItem="sdn-vJ-zX3" firstAttribute="leading" secondItem="TIL-qK-wUF" secondAttribute="leading" id="W1s-jC-XOo"/>
+                    <constraint firstItem="sdn-vJ-zX3" firstAttribute="top" secondItem="TIL-qK-wUF" secondAttribute="top" constant="8" id="dLV-jV-Dy2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="choiceLabel" destination="zhF-SG-Cka" id="mGF-BU-jO2"/>
+                <outlet property="emojiLabel" destination="fIm-T5-p1C" id="mlG-8V-FcQ"/>
+            </connections>
+            <point key="canvasLocation" x="15.267175572519083" y="-189.43661971830986"/>
+        </tableViewCell>
+    </objects>
+</document>

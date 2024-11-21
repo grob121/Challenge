@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SeparatorTableViewCell" id="ExT-3i-5kU" customClass="SeparatorTableViewCell" customModule="Challenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ExT-3i-5kU" id="VHA-sQ-UuA">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YBS-Au-KDI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="16"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="QcY-EA-FIZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YBS-Au-KDI" firstAttribute="top" secondItem="VHA-sQ-UuA" secondAttribute="top" id="Nfu-6D-zEZ"/>
+                    <constraint firstAttribute="bottom" secondItem="YBS-Au-KDI" secondAttribute="bottom" id="RU1-v0-IwR"/>
+                    <constraint firstItem="YBS-Au-KDI" firstAttribute="leading" secondItem="VHA-sQ-UuA" secondAttribute="leading" id="ehK-7P-2c2"/>
+                    <constraint firstAttribute="trailing" secondItem="YBS-Au-KDI" secondAttribute="trailing" id="ggq-2M-MuU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-361" y="-97"/>
+        </tableViewCell>
+    </objects>
+</document>
